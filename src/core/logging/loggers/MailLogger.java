@@ -1,4 +1,10 @@
 package core.logging.loggers;
 
-public class MailLogger {
+import core.logging.loggers.base.LoggerService;
+
+public class MailLogger extends LoggerService {
+    @Override
+    public void log(String message) {
+        System.out.println("Logged to mail.\nMessage: " + message);
+    }
 }
