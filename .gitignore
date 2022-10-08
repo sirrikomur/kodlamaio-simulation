@@ -1,0 +1,16 @@
+# Default ignored files
+/.idea/shelf/
+/.idea/modules.xml
+/.idea/misc.xml
+/.idea/uiDesigner.xml
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+*.iml
+out/
+
+*.DS_Store
