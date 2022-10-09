@@ -33,7 +33,8 @@ public class CourseManager implements CourseService {
     }
 
     @Override
-    public void update(Course course) {
+    public void update(Course course) throws Exception {
+        _courseBusinessRules.CoursePriceCannotBeLessThan0(course.getPrice());
         _courseRepository.update(course);
         _logService.log("Course update.");
     }

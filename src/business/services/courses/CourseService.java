@@ -4,6 +4,6 @@ import domain.entities.Course;
 
 public interface CourseService {
     void create(Course course) throws Exception;
-    void update(Course course);
+    void update(Course course) throws Exception;
     void delete(Course course);
 }
